@@ -1,4 +1,4 @@
-package com.evodesign.buttontest;
+package com.evodesign.navtest;
 
 import org.junit.Test;
 

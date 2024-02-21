@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package com.evodesign.buttontest.application;
+package com.evodesign.navtest.application;
 
 import android.app.Application;
 import android.content.Context;

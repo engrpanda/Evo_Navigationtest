@@ -5,54 +5,122 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.evodesign.buttontest.MainActivity">
+    tools:context="com.evodesign.navtest.MainActivity"
+    android:background="@drawable/bg">
 
-    <Button
-        android:id="@+id/upButton"
+    <TextView
+        android:id="@+id/title2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="↑"
-        android:layout_marginTop="40dp"
-        android:layout_marginLeft="100dp"/>
+        android:text="Select your destination"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true" />
 
     <Button
-        android:id="@+id/leftButton"
+        android:id="@+id/back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="←"
-        android:layout_marginTop="82dp"
-        android:layout_marginLeft="10dp"/>
-
-    <Button
-        android:id="@+id/rightButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="→"
-        android:layout_marginTop="82dp"
-        android:layout_marginLeft="190dp"/>
-
-    <Button
-        android:id="@+id/downButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="↓"
-        android:layout_marginTop="125dp"
-        android:layout_marginLeft="100dp"/>
-
-    <Button
-        android:id="@+id/buttonA"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="A"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"/>
 
-    <Button
-        android:id="@+id/buttonB"
+    <!-- Outdoor -->
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="B"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="190dp"/>
+        android:orientation="vertical"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="100dp"
+        android:gravity="center">
 
+        <ImageButton
+            android:id="@+id/cr"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@null"
+            android:src="@drawable/cr"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="comfort room"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <!-- Indoor -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="250dp"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/indoor"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@null"
+            android:src="@drawable/indoor"/>
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="indoor lights"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <!-- Professional -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="250dp"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/charge"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@null"
+            android:src="@drawable/charge"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go to charging pole"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <!-- Decorative -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/decorative"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@null"
+            android:src="@drawable/decorative"/>
+
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="decorative lights"
+            android:textColor="@color/white"/>
+    </LinearLayout>
 </RelativeLayout>
