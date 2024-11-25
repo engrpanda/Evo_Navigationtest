@@ -14,5 +14,5 @@ Power control: https://doc.orionstar.com/en/knowledge-base/power-control/
 
 
 
+![image](https://github.com/user-attachments/assets/4d5c9e0b-c8ec-4102-8ea7-9e2593a1c472)
 
-![image](https://github.com/engrpanda/Evo_Navigationtest/assets/53995355/c4a7ba9d-f70d-47b3-8f22-134654e28373)
