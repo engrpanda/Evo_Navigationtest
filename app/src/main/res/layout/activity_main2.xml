@@ -9,12 +9,20 @@
     android:background="@drawable/bg">
 
     <Button
-        android:id="@+id/start"
+        android:id="@+id/navigation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Click to start"
+        android:text="Navigation"
         android:layout_marginTop="70dp"
-        android:layout_marginLeft="250dp"/>
+        android:layout_marginLeft="260dp"/>
+
+    <Button
+        android:id="@+id/maptools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Map tools"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="260dp"/>
 
     <ImageView
         android:id="@+id/landlite"
